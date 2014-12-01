@@ -26,9 +26,8 @@ public class PessoaService implements PessoaRepositoryIntf {
 	 * @param email
 	 * @return
 	 */
-	public Pessoa findByEmail(String email) {
-		Pessoa pessoa = pessoaRepository.findByEmail(email);
-		return pessoa;
+	public Pessoa findByEmailLike(String email) {
+		return pessoaRepository.findByEmailLike(email);
 	}
 	
 	/**

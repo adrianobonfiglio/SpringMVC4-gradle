@@ -15,6 +15,7 @@ import br.com.gradletest.service.PessoaService;
  *
  */
 @Controller
+@RequestMapping(value="/pessoa")
 public class PessoaController {
 	
 	@Autowired
@@ -23,13 +24,13 @@ public class PessoaController {
 	/**
 	 * @return
 	 */
-	@RequestMapping(value="/pessoa")
+	@RequestMapping(value="/list")
 	public ModelAndView index() {
 		ModelAndView model = new ModelAndView();
-		List<Pessoa> pessoas = pessoaService.findAll();
+		Pessoa pessoa = pessoaService.findByEmailLike("adrianobonfiglio@gmail.com");
 		
-		model.addObject("listPessoas", pessoas);
-		model.setViewName("index");
+		model.addObject("pessoa", pessoa);
+		model.setViewName("/pessoa/list");
 		
 		return model;
 		

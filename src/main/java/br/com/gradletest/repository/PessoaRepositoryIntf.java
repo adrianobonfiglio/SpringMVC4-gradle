@@ -3,6 +3,7 @@ package br.com.gradletest.repository;
 import java.io.Serializable;
 import java.util.List;
 
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
@@ -20,7 +21,7 @@ public interface PessoaRepositoryIntf extends CrudRepository<Pessoa, Serializabl
 	 * @param email
 	 * @return
 	 */
-	Pessoa findByEmail(String email);
+	Pessoa findByEmailLike(String email);
 	
 	/*
 	 * @see CrudRepository#findAll()

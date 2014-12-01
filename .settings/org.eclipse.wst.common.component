@@ -39,6 +39,9 @@
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Adriano/.gradle/caches/modules-2/files-2.1/jstl/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Adriano/.gradle/caches/modules-2/files-2.1/commons-httpclient/commons-httpclient/3.1/964cd74171f427720480efdec40a7c7f6e58426a/commons-httpclient-3.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Adriano/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.0.0.RELEASE/6ce2dda16a3c1581920fc17551f3ae17d26499aa/spring-web-4.0.0.RELEASE.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
@@ -96,6 +99,9 @@
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Adriano/.gradle/caches/modules-2/files-2.1/asm/asm/3.3.1/1d5f20b4ea675e6fab6ab79f1cd60ec268ddc015/asm-3.3.1.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Adriano/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.2/397f4731a9f9b6eb1907e224911c77ea3aa27a8b/commons-codec-1.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Adriano/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.1.4.RELEASE/338574f840409cb91adbbb4adb7b7f458c213ce0/spring-boot-1.1.4.RELEASE.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
@@ -150,9 +156,6 @@
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Adriano/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.6.RELEASE/d880beac77d42c5798aa2b632ddd0e4ae47c79ad/spring-core-4.0.6.RELEASE.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Adriano/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar">
-			<dependency-type>uses</dependency-type>
-		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Adriano/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.1-GA/d9a09f7732226af26bf99f19e2cffe0ae219db5b/javassist-3.18.1-GA.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
@@ -169,6 +172,9 @@
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Adriano/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/2b8019b6249bb05d81d3a3094e468753e2b21311/slf4j-api-1.7.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Adriano/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 	</wb-module>

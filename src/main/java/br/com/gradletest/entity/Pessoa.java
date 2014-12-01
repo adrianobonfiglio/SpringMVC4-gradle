@@ -14,7 +14,7 @@ import javax.persistence.Table;
 public class Pessoa {
 
 	@Id
-	@Column(name = "id_pessoa")
+	@Column(name = "id")
 	private Integer id;
 
 	@Column(name = "nome")
