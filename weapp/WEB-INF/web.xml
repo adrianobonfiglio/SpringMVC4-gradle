@@ -13,8 +13,4 @@
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
 
-	<filter>
-		<filter-name>authFilter</filter-name>
-		<filter-class>br.com.gradletest.filters.AuthorizationFilter</filter-class>
-	</filter>
 </web-app>

@@ -53,7 +53,7 @@ dependencies {
 	compile 'cglib:cglib:2.2.2'
 	compile 'jstl:jstl:1.2'
 	
-	compile 'commons-httpclient:commons-httpclient:3.1'
+	compile 'org.apache.httpcomponents:httpclient:4.3.4'
 
 	def tomcatVersion = '7.0.52'
 	tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}",

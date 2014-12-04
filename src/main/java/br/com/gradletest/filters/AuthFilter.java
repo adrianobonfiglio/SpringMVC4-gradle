@@ -17,9 +17,9 @@ import org.apache.log4j.Logger;
  *
  */
 @WebFilter("/*")
-public class AuthorizationFilter implements Filter{
+public class AuthFilter implements Filter{
 	
-	Logger log = Logger.getLogger(AuthorizationFilter.class);
+	Logger log = Logger.getLogger(AuthFilter.class);
 
 	/* (non-Javadoc)
 	 * @see javax.servlet.Filter#destroy()
